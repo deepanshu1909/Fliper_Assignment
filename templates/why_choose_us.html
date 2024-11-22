@@ -1,0 +1,87 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us</title>
+
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Container styling */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 50px;
+        }
+
+        /* Styling for the boxes */
+        .boxes {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            text-align: center;
+        }
+
+        .box h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .box p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Hover effect for the boxes */
+        .box:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: translateY(-5px);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Why Choose Us?</h1>
+        <div class="boxes">
+            <div class="box">
+                <h2>ROI</h2>
+                <p>We deliver outstanding return on investment with our innovative strategies that maximize your financial success.</p>
+            </div>
+            <div class="box">
+                <h2>Design</h2>
+                <p>Our designs are not only aesthetically pleasing but also user-friendly and functional, ensuring a seamless experience for your audience.</p>
+            </div>
+            <div class="box">
+                <h2>Marketing</h2>
+                <p>We excel at creating targeted marketing strategies that help elevate your brand's presence and drive real growth.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

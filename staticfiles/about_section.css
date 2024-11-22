@@ -1,0 +1,43 @@
+/* About Us Section */
+.about-us {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.about-us .content {
+    max-width: 800px; /* Ensures content is not too wide */
+    margin: 0 auto;  /* Center-align the content */
+    padding: 20px;
+    background-color: #fff; /* White background for the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.about-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6; /* Increase line spacing for readability */
+    margin-bottom: 20px;
+}
+
+.learn-more-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(75, 0, 130);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.learn-more-btn:hover {
+    background-color: rgb(106, 90, 205);
+}

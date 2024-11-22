@@ -1,0 +1,67 @@
+/* Two Bars Section */
+.two-bars {
+    padding: 20px 0;
+    background-color: #f8f8f8;
+}
+
+/* First Bar */
+.first-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 15px;
+}
+
+.left-links a:hover {
+    color: rgb(75, 0, 130);
+}
+
+/* Subscription */
+.right-subscription {
+    text-align: center;
+}
+
+.right-subscription form input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.right-subscription form button {
+    padding: 10px 15px;
+    background-color: rgb(75, 0, 130);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-subscription form button:hover {
+    background-color: rgb(106, 90, 205);
+}
+
+/* Second Bar */
+.second-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: #2a2a72;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}

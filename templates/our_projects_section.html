@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'static/our_projects_section.css' %}">
+    <title>Our Projects Section</title>
+</head>
+<body>
+    <section class="our-projects">
+        <h2>Our Projects</h2>
+        <div class="quote">
+            <p>"We take pride in our successful projects and the impact they have on the communities we serve."</p>
+        </div>
+        <div class="projects-container">
+            <!-- Project Box 1 -->
+            <div class="project-box">
+                <img src="{% static 'flipr_project/images/our_projects/consultation.png' %}" alt="Consultation">
+                <h3>Consultation</h3>
+                <p>"Our consultation services help you make informed decisions every step of the way."</p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+            <!-- Project Box 2 -->
+            <div class="project-box">
+                <img src="{% static 'flipr_project/images/our_projects/design.png' %}" alt="Design">
+                <h3>Design</h3>
+                <p>"We offer expertly designed properties that match your personal style and needs."</p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+            <!-- Project Box 3 -->
+            <div class="project-box">
+                <img src="{% static 'flipr_project/images/our_projects/marketing_design.png' %}" alt="Marketing">
+                <h3>Marketing</h3>
+                <p>"Our marketing strategies ensure maximum exposure for your property."</p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+            <!-- Project Box 4 -->
+            <div class="project-box">
+                <img src="{% static 'flipr_project/images/our_projects/consultation_marketing.png' %}" alt="Consultation & Marketing">
+                <h3>Consultation & Marketing</h3>
+                <p>"Combining consultation and marketing services to give your property the best exposure."</p>
+                <button class="read-more-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* General Layout for Three Circles Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Section */
+.three-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    height: 100vh; /* Make sure it takes the full height of the viewport */
+}
+
+/* Content Container for Quote and Video */
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Quote Section on the Left */
+.quote-container {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.quote-container h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.quote-container p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* YouTube Video Section (Right Side) */
+.video-container {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Centers the video in the container */
+}
+
+/* Styling for the iframe (video player) */
+iframe {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design: Stacking layout for smaller screens */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote-container {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .video-container iframe {
+        height: 250px; /* Adjust the height for smaller screens */
+        width: 100%;
+    }
+}

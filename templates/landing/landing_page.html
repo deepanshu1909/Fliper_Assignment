@@ -1,0 +1,32 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="{% static 'landing_page.css' %}">
+</head>
+<body>
+    <!-- Navbar -->
+    {% include 'navbar.html' %}
+
+    <!-- Hero Section -->
+    {% include 'hero_section.html' %}
+
+    <!-- Why Choose Us Section -->
+    {% include 'why_choose_us.html' %}
+
+    <!-- About Us Section -->
+    {% include 'about_us_section.html' %}
+
+    <!-- Our Projects Section -->
+    {% include 'our_projects_section.html' %}
+
+    <!-- Happy Clients Section -->
+    {% include 'happy_clients_section.html' %}
+
+    <!-- Two Bars Section -->
+    {% include 'two_bars_section.html' %}
+</body>
+</html>

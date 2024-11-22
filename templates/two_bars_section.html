@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'static/two_bars_section.css' %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Include Font Awesome -->
+    <title>Two Bars Section</title>
+</head>
+<body>
+    <!-- Two Bars Section with background image in HTML -->
+    <section class="two-bars" style="background-image: url('{% static 'flipr_project/images/two_bars/two_bars.png' %}'); background-size: cover; background-position: center;">
+        <!-- First Bar -->
+        <div class="first-bar">
+            <div class="left-links">
+                <a href="#" class="bar-link">Home</a>
+                <a href="#" class="bar-link">Contact</a>
+                <a href="#" class="bar-link">About</a>
+                <a href="#" class="bar-link">Testimonials</a>
+            </div>
+            <div class="right-subscription">
+                <h3>Subscription</h3>
+                <p>Subscribe to get the latest updates on new listings and promotions.</p>
+                <form action="#" method="POST">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Second Bar -->
+    <section class="second-bar">
+        <div class="real-trust">
+            <h3>Real Trust</h3>
+        </div>
+        <div class="social-icons">
+            <!-- Use Font Awesome icons for social media -->
+            <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-apple"></i></a>
+        </div>
+    </section>
+</body>
+</html>

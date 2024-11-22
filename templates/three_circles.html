@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'static/three_circles.css' %}">
+    <title>Three Circles Section</title>
+</head>
+<body>
+    <section class="three-circles">
+        <div class="content-container">
+            <!-- Quote Section (Left Side) -->
+            <div class="quote-container">
+                <h2>"Providing you with the best real estate services and expertise."</h2>
+                <p>- Not Your Average Realtor</p>
+            </div>
+
+            <!-- YouTube Player Section (Right Side) -->
+            <div class="video-container">
+                <iframe width="400" height="225" src="https://www.youtube-nocookie.com/embed/1OAjeECW90E?si=pn1z6t9XEWLnF58h" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.why-choose-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 28px;
+    color: #d41717;
+    margin-bottom: 20px;
+}
+
+.underline {
+    width: 80px;
+    height: 2px;
+    background-color: #2a2a72;
+    margin: 10px auto;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+    background-color: #7e1515;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box h3 {
+    font-size: 22px;
+    color: #2a2a72;
+}
+
+.box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.box:hover {
+    transform: translateY(-10px); /* Smooth hover effect */
+}

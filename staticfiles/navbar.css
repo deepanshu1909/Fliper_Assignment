@@ -1,0 +1,35 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-left h1 {
+    color: rgb(9, 9, 61);
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-right .nav-btn {
+    text-decoration: none;
+    background-color: rgb(238, 237, 236);
+    color: rgb(12, 12, 72);
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-right .nav-btn:hover {
+    background-color: rgb(197, 194, 190);
+}

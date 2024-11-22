@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'static/hero_section.css' %}">
+    <title>Hero Section</title>
+</head>
+<body>
+    <div class="hero">
+        <img src="{% static 'flipr_project/images/happy_patient/happy_patient.png' %}" alt="Hero Background" class="hero-image">
+        
+        <!-- Contact Form on the Right -->
+        <div class="contact-form">
+            <h2>Get a Free Consultant</h2>
+            <form action="{% url 'submit_contact_form' %}" method="POST">
+                {% csrf_token %}
+                <input type="text" name="full_name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="text" name="mobile_number" placeholder="Mobile Number" required>
+                <input type="text" name="city" placeholder="Area, City" required>
+                <button type="submit">Get Quick Quote</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
